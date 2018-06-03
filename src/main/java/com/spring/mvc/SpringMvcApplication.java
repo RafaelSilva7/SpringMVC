@@ -11,6 +11,7 @@ import com.spring.mvc.domain.Cidade;
 import com.spring.mvc.domain.Cliente;
 import com.spring.mvc.domain.Endereco;
 import com.spring.mvc.domain.Estado;
+import com.spring.mvc.domain.Pedido;
 import com.spring.mvc.domain.Produto;
 import com.spring.mvc.domain.enums.TipoCliente;
 import com.spring.mvc.repositories.CategoriaRepository;
@@ -87,5 +88,9 @@ public class SpringMvcApplication implements CommandLineRunner{
 		
 		clienteRepository.saveAll(Arrays.asList(cli1));
 		enderecoRepository.saveAll(Arrays.asList(e1, e2));
+		
+//		--------------------------------------------------------
+		
+		Pedido
 	}
 }
